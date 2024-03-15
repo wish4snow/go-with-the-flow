@@ -6,7 +6,8 @@ class HeatFlow {
 		vector<double> sections;
 		double K;
 		double sources_and_sinks;
-
+		double initial_temperature;
+		
 	public:
 		HeatFlow (double initial_temperature, int number_of_sections, double K, double sources_and_sinks);
 
